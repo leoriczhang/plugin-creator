@@ -7,7 +7,7 @@ description: Create new Claude Code plugins, scaffold and validate their compone
 
 A skill for creating new Claude Code plugins and iteratively improving them.
 
-This skill is the plugin-level analog of `skill-creator`: where `skill-creator` produces a single `SKILL.md` with companion files, `plugin-creator` produces a *bundle* of components — skills, agents, hooks, MCP servers, LSP servers, monitors, themes — wired together by a `.claude-plugin/plugin.json` manifest, and ready to install with `claude plugin install`.
+This skill is the plugin-level analog of [`skill-creator`](https://github.com/anthropics/skills/tree/main/skills/skill-creator): where `skill-creator` produces a single `SKILL.md` with companion files, `plugin-creator` produces a *bundle* of components — skills, agents, hooks, MCP servers, LSP servers, monitors, themes — wired together by a `.claude-plugin/plugin.json` manifest, and ready to install with `claude plugin install`.
 
 At a high level, the process of creating a plugin goes like this:
 

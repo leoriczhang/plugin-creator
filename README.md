@@ -2,7 +2,7 @@
 
 A Claude Code **skill** for creating, validating, packaging, and version-managing Claude Code **plugins** — and for advising on how to group a pile of standalone skills into coherent plugins.
 
-This skill is the plugin-level analog of [`skill-creator`](../skill-creator/): where `skill-creator` produces a single `SKILL.md` with companion files, `plugin-creator` produces a *bundle* of components (skills, agents, hooks, MCP servers, LSP servers, monitors, themes) wired together by a `.claude-plugin/plugin.json` manifest, ready to install with `claude plugin install`.
+This skill is the plugin-level analog of [`skill-creator`](https://github.com/anthropics/skills/tree/main/skills/skill-creator): where `skill-creator` produces a single `SKILL.md` with companion files, `plugin-creator` produces a *bundle* of components (skills, agents, hooks, MCP servers, LSP servers, monitors, themes) wired together by a `.claude-plugin/plugin.json` manifest, ready to install with `claude plugin install`.
 
 Grounded in the official reference: <https://code.claude.com/docs/en/plugins-reference>.
 
@@ -193,7 +193,7 @@ Agents return JSON; read the file when they finish and act on the structured out
 
 - Plugins reference: <https://code.claude.com/docs/en/plugins-reference>
 - Plugin marketplaces: <https://code.claude.com/docs/en/plugin-marketplaces>
-- Sibling skill: [`skill-creator`](../skill-creator/) — for the single-skill (no plugin) case
+- Sibling skill: [`skill-creator`](https://github.com/anthropics/skills/tree/main/skills/skill-creator) — for the single-skill (no plugin) case
 
 ---
 
